@@ -1,0 +1,6 @@
+from players_and_mosters.project import Reptile
+
+
+class Snake(Reptile):
+    def __init__(self, name):
+        super().__init__(name)
